@@ -1,8 +1,0 @@
-ros-rolling-rosidlcpp-parser (0.1.0-1noble) noble; urgency=high
-
-  * First release of rosidlcpp_parser package
-  * Contributors: Anthony Welte
-
- -- Anthony Welte <tony.welte@gmail.com>  Sun, 25 May 2025 00:00:00 -0000
-
-
