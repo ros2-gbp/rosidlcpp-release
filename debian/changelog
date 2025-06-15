@@ -1,0 +1,16 @@
+ros-rolling-rosidlcpp-generator-c (0.1.1-1bookworm) bookworm; urgency=high
+
+  * Fix circular dependency caused by ament_cmake_ros dependency (#4 <https://github.com/TonyWelte/rosidlcpp/issues/4>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 15 Jun 2025 00:00:00 -0000
+
+ros-rolling-rosidlcpp-generator-c (0.1.0-1bookworm) bookworm; urgency=high
+
+  * Fix escaped strings to match changes from https://github.com/ros2/rosidl/pull/862
+  * First release of rosidlcpp_generator_c package
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 25 May 2025 00:00:00 -0000
+
+
