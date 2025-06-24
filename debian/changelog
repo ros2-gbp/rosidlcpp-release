@@ -1,0 +1,29 @@
+ros-rolling-rosidlcpp-generator-c (0.2.0-1noble) noble; urgency=high
+
+  * Fix shared/static library type for generator_c and introspection_c[pp] (#6 <https://github.com/TonyWelte/rosidlcpp/issues/6>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Tue, 24 Jun 2025 00:00:00 -0000
+
+ros-rolling-rosidlcpp-generator-c (0.1.2-1noble) noble; urgency=high
+
+
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sat, 21 Jun 2025 00:00:00 -0000
+
+ros-rolling-rosidlcpp-generator-c (0.1.1-1noble) noble; urgency=high
+
+  * Fix circular dependency caused by ament_cmake_ros dependency (#4 <https://github.com/TonyWelte/rosidlcpp/issues/4>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 15 Jun 2025 00:00:00 -0000
+
+ros-rolling-rosidlcpp-generator-c (0.1.0-1noble) noble; urgency=high
+
+  * Fix escaped strings to match changes from https://github.com/ros2/rosidl/pull/862
+  * First release of rosidlcpp_generator_c package
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 25 May 2025 00:00:00 -0000
+
+
