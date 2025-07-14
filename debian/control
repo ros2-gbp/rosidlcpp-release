@@ -1,0 +1,12 @@
+Source: ros-rolling-rosidlcpp-generator-py
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, nlohmann-json3-dev, ros-rolling-ament-cmake, ros-rolling-rosidl-runtime-c, ros-rolling-rosidlcpp-generator-core, ros-rolling-rosidlcpp-parser, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rosidlcpp-generator-py
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, nlohmann-json3-dev, ros-rolling-ament-cmake, ros-rolling-ament-index-python, ros-rolling-python-cmake-module, ros-rolling-rmw, ros-rolling-rosidl-generator-c, ros-rolling-rosidl-pycommon, ros-rolling-rosidl-typesupport-c, ros-rolling-rosidl-typesupport-interface, ros-rolling-rosidlcpp-generator-core, ros-rolling-rosidlcpp-parser, ros-rolling-ros-workspace
+Description: Generate the ROS interfaces in Python.
