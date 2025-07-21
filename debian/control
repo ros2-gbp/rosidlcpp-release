@@ -1,0 +1,12 @@
+Source: ros-jazzy-rosidlcpp-generator-type-description
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, nlohmann-json3-dev, ros-jazzy-ament-cmake, ros-jazzy-rcutils, ros-jazzy-rosidl-runtime-c, ros-jazzy-rosidlcpp-generator-core, ros-jazzy-rosidlcpp-parser, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rosidlcpp-generator-type-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, nlohmann-json3-dev, ros-jazzy-ament-cmake-core, ros-jazzy-rcutils, ros-jazzy-rosidl-runtime-c, ros-jazzy-rosidlcpp-generator-core, ros-jazzy-rosidlcpp-parser, ros-jazzy-ros-workspace
+Description: Generate hashes and descriptions of ROS 2 interface types, per REP-2011.
