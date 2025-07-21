@@ -1,3 +1,39 @@
+## rosidlcpp (jazzy) - 0.3.0-1
+
+The packages in the `rosidlcpp` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release --new-track --rosdistro jazzy --track jazzy rosidlcpp` on `Mon, 21 Jul 2025 19:09:00 -0000`
+
+These packages were released:
+- `rosidlcpp`
+- `rosidlcpp_generator_c`
+- `rosidlcpp_generator_core`
+- `rosidlcpp_generator_cpp`
+- `rosidlcpp_generator_py`
+- `rosidlcpp_generator_type_description`
+- `rosidlcpp_parser`
+- `rosidlcpp_typesupport_c`
+- `rosidlcpp_typesupport_cpp`
+- `rosidlcpp_typesupport_fastrtps_c`
+- `rosidlcpp_typesupport_fastrtps_cpp`
+- `rosidlcpp_typesupport_introspection_c`
+- `rosidlcpp_typesupport_introspection_cpp`
+
+Version of package(s) in repository `rosidlcpp`:
+
+- upstream repository: https://github.com/TonyWelte/rosidlcpp.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.3.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.13.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## rosidlcpp (kilted) - 0.3.0-1
 
 The packages in the `rosidlcpp` repository were released into the `kilted` distro by running `/usr/bin/bloom-release --rosdistro kilted rosidlcpp` on `Mon, 21 Jul 2025 19:02:24 -0000`
