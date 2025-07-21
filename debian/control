@@ -1,0 +1,12 @@
+Source: ros-jazzy-rosidlcpp-typesupport-fastrtps-cpp
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, nlohmann-json3-dev, ros-jazzy-ament-cmake, ros-jazzy-ament-cmake-python, ros-jazzy-fastcdr, ros-jazzy-rmw, ros-jazzy-rosidl-runtime-c, ros-jazzy-rosidlcpp-generator-core, ros-jazzy-rosidlcpp-parser, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rosidlcpp-typesupport-fastrtps-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, nlohmann-json3-dev, ros-jazzy-ament-cmake-ros, ros-jazzy-fastcdr, ros-jazzy-rmw, ros-jazzy-rosidl-generator-c, ros-jazzy-rosidl-generator-cpp, ros-jazzy-rosidl-runtime-c, ros-jazzy-rosidl-runtime-cpp, ros-jazzy-rosidl-typesupport-interface, ros-jazzy-rosidlcpp-generator-core, ros-jazzy-rosidlcpp-parser, ros-jazzy-ros-workspace
+Description: Generate the C++ interfaces for eProsima FastRTPS.
