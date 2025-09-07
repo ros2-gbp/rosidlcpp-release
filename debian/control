@@ -1,0 +1,12 @@
+Source: ros-kilted-rosidlcpp-generator-type-description
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, nlohmann-json3-dev, ros-kilted-ament-cmake, ros-kilted-rcutils, ros-kilted-rosidl-runtime-c, ros-kilted-rosidlcpp-generator-core, ros-kilted-rosidlcpp-parser, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rosidlcpp-generator-type-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, nlohmann-json3-dev, ros-kilted-ament-cmake-core, ros-kilted-rcutils, ros-kilted-rosidl-runtime-c, ros-kilted-rosidlcpp-generator-core, ros-kilted-rosidlcpp-parser, ros-kilted-ros-workspace
+Description: Generate hashes and descriptions of ROS 2 interface types, per REP-2011.

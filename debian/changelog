@@ -1,0 +1,47 @@
+ros-kilted-rosidlcpp-generator-type-description (0.4.0-1noble) noble; urgency=high
+
+
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 07 Sep 2025 00:00:00 -0000
+
+ros-kilted-rosidlcpp-generator-type-description (0.3.0-1noble) noble; urgency=high
+
+
+
+ -- Anthony Welte <tony.welte@gmail.com>  Mon, 21 Jul 2025 00:00:00 -0000
+
+ros-kilted-rosidlcpp-generator-type-description (0.2.1-1noble) noble; urgency=high
+
+  * Several small bugfixes after the first public release (#10 <https://github.com/TonyWelte/rosidlcpp/issues/10>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Mon, 14 Jul 2025 00:00:00 -0000
+
+ros-kilted-rosidlcpp-generator-type-description (0.2.0-1noble) noble; urgency=high
+
+
+
+ -- Anthony Welte <tony.welte@gmail.com>  Tue, 24 Jun 2025 00:00:00 -0000
+
+ros-kilted-rosidlcpp-generator-type-description (0.1.2-1noble) noble; urgency=high
+
+  * Fix missing fmt dependency in rosidlcpp_generator_core (#5 <https://github.com/TonyWelte/rosidlcpp/issues/5>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sat, 21 Jun 2025 00:00:00 -0000
+
+ros-kilted-rosidlcpp-generator-type-description (0.1.1-1noble) noble; urgency=high
+
+  * Fix circular dependency caused by ament_cmake_ros dependency (#4 <https://github.com/TonyWelte/rosidlcpp/issues/4>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 15 Jun 2025 00:00:00 -0000
+
+ros-kilted-rosidlcpp-generator-type-description (0.1.0-1noble) noble; urgency=high
+
+  * First release of rosidlcpp_generator_type_description package
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 25 May 2025 00:00:00 -0000
+
+
