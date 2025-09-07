@@ -1,0 +1,51 @@
+ros-jazzy-rosidlcpp-generator-cpp (0.4.0-1noble) noble; urgency=high
+
+  * Port rosidl`#864 <https://github.com/ros2/rosidl/pull/864>`_ (#16 <https://github.com/TonyWelte/rosidlcpp/issues/16>)
+  * Port rosidl`#863 <https://github.com/ros2/rosidl/pull/863>`_ (#15 <https://github.com/TonyWelte/rosidlcpp/issues/15>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 07 Sep 2025 00:00:00 -0000
+
+ros-jazzy-rosidlcpp-generator-cpp (0.3.0-1noble) noble; urgency=high
+
+  * Fix compilation on RHEL9 (#12 <https://github.com/TonyWelte/rosidlcpp/issues/12>)
+  * Add jazzy support (#11 <https://github.com/TonyWelte/rosidlcpp/issues/11>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Mon, 21 Jul 2025 00:00:00 -0000
+
+ros-jazzy-rosidlcpp-generator-cpp (0.2.1-1noble) noble; urgency=high
+
+  * Fix array with default values (#10 <https://github.com/TonyWelte/rosidlcpp/issues/10>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Mon, 14 Jul 2025 00:00:00 -0000
+
+ros-jazzy-rosidlcpp-generator-cpp (0.2.0-1noble) noble; urgency=high
+
+  * Add name and data_type traits for actions (#7 <https://github.com/TonyWelte/rosidlcpp/issues/7>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Tue, 24 Jun 2025 00:00:00 -0000
+
+ros-jazzy-rosidlcpp-generator-cpp (0.1.2-1noble) noble; urgency=high
+
+
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sat, 21 Jun 2025 00:00:00 -0000
+
+ros-jazzy-rosidlcpp-generator-cpp (0.1.1-1noble) noble; urgency=high
+
+  * Fix circular dependency caused by ament_cmake_ros dependency (#4 <https://github.com/TonyWelte/rosidlcpp/issues/4>)
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 15 Jun 2025 00:00:00 -0000
+
+ros-jazzy-rosidlcpp-generator-cpp (0.1.0-1noble) noble; urgency=high
+
+  * First release of rosidlcpp_generator_cpp package
+  * Contributors: Anthony Welte
+
+ -- Anthony Welte <tony.welte@gmail.com>  Sun, 25 May 2025 00:00:00 -0000
+
+
