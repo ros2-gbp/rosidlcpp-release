@@ -1,0 +1,12 @@
+Source: ros-rolling-rosidlcpp
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-rosidlcpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-ament-cmake-core, ros-rolling-rosidlcpp-generator-c, ros-rolling-rosidlcpp-generator-cpp, ros-rolling-rosidlcpp-generator-py, ros-rolling-rosidlcpp-generator-type-description, ros-rolling-rosidlcpp-typesupport-c, ros-rolling-rosidlcpp-typesupport-cpp, ros-rolling-rosidlcpp-typesupport-fastrtps-c, ros-rolling-rosidlcpp-typesupport-fastrtps-cpp, ros-rolling-rosidlcpp-typesupport-introspection-c, ros-rolling-rosidlcpp-typesupport-introspection-cpp, ros-rolling-ros-workspace
+Description: Meta package depending on all rosidlcpp generators
