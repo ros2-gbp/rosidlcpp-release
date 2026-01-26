@@ -1,0 +1,12 @@
+Source: ros-jazzy-rosidlcpp-typesupport-c
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, nlohmann-json3-dev, ros-jazzy-ament-cmake-ros, ros-jazzy-rcpputils, ros-jazzy-rcutils, ros-jazzy-ros-environment, ros-jazzy-rosidl-runtime-c, ros-jazzy-rosidl-typesupport-introspection-c, ros-jazzy-rosidlcpp-generator-core, ros-jazzy-rosidlcpp-parser, ros-jazzy-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-jazzy-rosidlcpp-typesupport-c
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, nlohmann-json3-dev, ros-jazzy-ament-cmake-core, ros-jazzy-ament-index-python, ros-jazzy-rcpputils, ros-jazzy-rcutils, ros-jazzy-rosidl-cli, ros-jazzy-rosidl-generator-c, ros-jazzy-rosidl-pycommon, ros-jazzy-rosidl-runtime-c, ros-jazzy-rosidl-typesupport-interface, ros-jazzy-rosidlcpp-generator-core, ros-jazzy-rosidlcpp-parser, ros-jazzy-ros-workspace
+Description: Generate the type support for C messages.
