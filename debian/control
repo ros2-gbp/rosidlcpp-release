@@ -1,0 +1,12 @@
+Source: ros-lyrical-rosidlcpp
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rosidlcpp/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rosidlcpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ament-cmake-core, ros-lyrical-rosidlcpp-generator-c, ros-lyrical-rosidlcpp-generator-cpp, ros-lyrical-rosidlcpp-generator-py, ros-lyrical-rosidlcpp-generator-type-description, ros-lyrical-rosidlcpp-typesupport-c, ros-lyrical-rosidlcpp-typesupport-cpp, ros-lyrical-rosidlcpp-typesupport-fastrtps-c, ros-lyrical-rosidlcpp-typesupport-fastrtps-cpp, ros-lyrical-rosidlcpp-typesupport-introspection-c, ros-lyrical-rosidlcpp-typesupport-introspection-cpp, ros-lyrical-ros-workspace
+Description: Meta package depending on all rosidlcpp generators
