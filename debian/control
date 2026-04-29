@@ -1,0 +1,12 @@
+Source: ros-lyrical-rosidlcpp-typesupport-introspection-cpp
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, nlohmann-json3-dev, ros-lyrical-ament-cmake-ros-core, ros-lyrical-ros-environment, ros-lyrical-rosidl-runtime-cpp, ros-lyrical-rosidl-typesupport-introspection-c, ros-lyrical-rosidlcpp-generator-core, ros-lyrical-rosidlcpp-parser, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rosidlcpp_typesupport_introspection_cpp/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rosidlcpp-typesupport-introspection-cpp
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, nlohmann-json3-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-index-python, ros-lyrical-rosidl-cli, ros-lyrical-rosidl-cmake, ros-lyrical-rosidl-generator-c, ros-lyrical-rosidl-generator-cpp, ros-lyrical-rosidl-parser, ros-lyrical-rosidl-pycommon, ros-lyrical-rosidl-runtime-c, ros-lyrical-rosidl-runtime-cpp, ros-lyrical-rosidl-typesupport-interface, ros-lyrical-rosidl-typesupport-introspection-c, ros-lyrical-rosidlcpp-generator-core, ros-lyrical-rosidlcpp-parser, ros-lyrical-ros-workspace
+Description: Generate the message type support for dynamic message construction in C++.
