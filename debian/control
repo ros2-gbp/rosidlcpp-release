@@ -1,0 +1,12 @@
+Source: ros-lyrical-rosidlcpp-generator-core
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, nlohmann-json3-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-rosidlcpp-parser, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rosidlcpp_generator_core/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rosidlcpp-generator-core
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libfmt-dev, ros-lyrical-rosidlcpp-parser, ros-lyrical-ros-workspace
+Description: This package provides the basis for all rosidlcpp generators
