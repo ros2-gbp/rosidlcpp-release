@@ -1,0 +1,12 @@
+Source: ros-lyrical-rosidlcpp-parser
+Section: misc
+Priority: optional
+Maintainer: Anthony Welte <tony.welte@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libfmt-dev, nlohmann-json3-dev, ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-ros-workspace
+Homepage: https://index.ros.org/p/rosidlcpp_parser/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-rosidlcpp-parser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-ros-workspace
+Description: This package provides utilities to parse idl files into a json data structure
