@@ -1,0 +1,10 @@
+{% set message = service.request_message %}
+{% include "msg__builder.hpp.template" %}
+
+
+{% set message = service.response_message %}
+{% include "msg__builder.hpp.template" %}
+
+
+{% set message = service.event_message %}
+{% include "msg__builder.hpp.template" %}
