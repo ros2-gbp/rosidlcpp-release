@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>rosidlcpp_generator_py</name>
-  <version>0.5.0</version>
+  <version>0.6.0</version>
   <description>Generate the ROS interfaces in Python.</description>
 
   <maintainer email="tony.welte@gmail.com">Anthony Welte</maintainer>
@@ -22,7 +22,6 @@
 
   <buildtool_export_depend>ament_cmake</buildtool_export_depend>
   <buildtool_export_depend>ament_index_python</buildtool_export_depend>
-  <buildtool_export_depend>python_cmake_module</buildtool_export_depend>
   <buildtool_export_depend>rosidl_generator_c</buildtool_export_depend>
   <buildtool_export_depend>rosidl_pycommon</buildtool_export_depend>
   <buildtool_export_depend>rosidl_typesupport_c</buildtool_export_depend>
